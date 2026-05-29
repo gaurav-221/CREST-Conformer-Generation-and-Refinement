@@ -1,0 +1,13 @@
+name: conformer_pipeline
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - pandas>=2.0
+  - rdkit>=2023.3
+  - xtb>=6.4
+  - crest>=2.12
+  # NOTE: ORCA is commercial software — requires separate license and installation
+  # Optional: for R2SCAN-3c DFT filtering
+  # Download from: https://orca-buch.de/

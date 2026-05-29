@@ -1,0 +1,14 @@
+# Conformer Generation Pipeline — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Python packages (usually pre-installed)
+# pandas>=2.0
+
+# NOTE: This pipeline primarily uses external computational chemistry tools.
+# Install these via conda as they require complex dependencies:
+
+# conda install -c conda-forge rdkit xtb crest
+
+# The pipeline also optionally uses:
+# ORCA (for R2SCAN-3c QM filtering) — commercial, requires license
+# See: https://orca-buch.de/
