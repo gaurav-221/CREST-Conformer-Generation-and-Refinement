@@ -103,7 +103,7 @@ python crest_conformer_pipeline_final.py --input mol.csv --filter BOLTZMANN
 The pipeline generates:
 
 - **conformer.xyz** - All conformers in XYZ format
-- **conformer筛选_filtered.xyz** - Filtered conformers
+- **conformer_filtered.xyz** - Filtered conformers
 - **ensemble_summary.csv** - Summary statistics
 
 ---
